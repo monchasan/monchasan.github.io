@@ -136,17 +136,17 @@ footer p {
 /* 記事部分　*/
 article {
   width: 60%;
-  order: 2;
+  /* order: 2; */
 }
 
 aside {
   width: 22%;
-  order: 3;
+  /* order: 3; */
 }
 
-.ad {
+/* .ad {
   order: 1;
-}
+} */
 
 .news-contents {
   display: flex;
@@ -231,18 +231,9 @@ aside p {
   color: #0bd;
 }
 
-@media (max-width: 600px) {
-  h1 {
-    color: #0bd;
-  }
-}
-
 /* モバイル版
 ----------------------- */
-@@media (max-width: 600px) {
-  .page-title {
-    font-size: 2.5rem;
-  }
+@media (max-width: 600px) {
 
 /* HEADER */
 .main-nav {
